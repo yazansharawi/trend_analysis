@@ -1,3 +1,9 @@
+#!/usr/bin/env python3
+"""
+Trend Analysis MCP Server
+Combines Twitter and web data for comprehensive trend analysis
+"""
+
 import asyncio
 import json
 from datetime import datetime
@@ -6,12 +12,8 @@ from typing import Any, Dict, List
 from mcp.server.models import InitializationOptions
 from mcp.server import NotificationOptions, Server
 from mcp.types import (
-    Resource,
     Tool,
     TextContent,
-    ImageContent,
-    EmbeddedResource,
-    LogLevel
 )
 import mcp.types as types
 
